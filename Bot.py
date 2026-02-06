@@ -7,7 +7,7 @@ from threading import Thread
 # --- تنظیمات اکانت ---
 API_ID = 26060584 
 API_HASH = "aff2f3bb35ebdea3761316d013d960a9"
-SESSION = "1BJWap1sBu7rkxD-ZAf_3F6iZJoBL-i_83Oy0i9NZdJqYOZL3QyJVn5DVGwZbAwubBSB3KyO86WoFbRPIshDPvWrav0ss4RwkkBRDEPLtbDYhyu6WOSsygbvqRVtoWdPBaX9TdZPfyy8RgsCfYohHD8raXsBL-xhNy9V06RiFkmybc9GW__bGZTv1rWVrdkvr0ngGGheZzsiyi4vCDSduMWlWWUzRPfu6VcikLQJ7orLLWHWhHGpJ7e90OW7CN4ZGL3itWgfIRntpUvq0-OR7CNhGJpHo2s5Nk3l4_0L7t8kBygxJJlli3SHxfahZjtZy0tKoelqkCufwL7yQkdsUlpRb4KlicQo="
+SESSION = "1BJWap1sBu3_lSH8RVgmo7ZePuaEqGULkRXFPg4hiwG1k-Zy2KDHMZnhLdw34oPHwBcDmTkl2s0hV4wIVPysAoZfTJkrHmmQ-iy_itt9J-xcoVgSsC6NbfOCS-0xAVwoc9-dwgZsSYYkiOvObroCBy9yn1DnMphXrJS4rmC5aiwLhAJ9Ty4kK05MBHZ1DUsYc66JsTEnH1aN6NevyZcKCcyVrIhRu_kxbYJOkPHvKOoQXwLWVYgSbahBhs8HjlDpw6OYjkeWij8Z0DVj2BlRhkOzKmkzr4xu7p2EkqE_n8HwXserJsZtdM9D4mtQtzVi-eyARhRfNYGU1swuByDY7R0NqjQJ63RU="
 NAME = "ᴛɪᴄᴋ-ᴛᴏᴄᴋ"
 # --------------------
 
