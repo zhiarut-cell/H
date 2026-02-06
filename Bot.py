@@ -7,11 +7,16 @@ from threading import Thread
 # ============ CONFIG ============
 API_ID = 26060584
 API_HASH = "aff2f3bb35ebdea3761316d013d960a9"
-SESSION_STRING = "PASTE_YOUR_SESSION_HERE"
+
+SESSION_STRING = (
+    "BAGNpygAN7kMlF4tSI0F3RpM_S7UNPQg0T4Z1eH10A9bLVq_hJIG0qho5oJsZcF-G6zDQJisYFD0PTYspjt6xu1IZ3ubtsiTBurBpjmm27BoZFJtfOQi3GY8qpNgxj9mspIiqv1T6mR0Anx5_fmv03zRBTbAwTxU9wSJg5IHpXVCtXGBeDTclMSvn8FYJdyHS55ni8F6II17gL_Em94Wq_E5MV78ubJXCt7nSEz3mcmFQ0Kmnij5vFWlTLn3womZsNc_JQU96Qd7EuPqNdczCdlIROmBAuoqGCoYs0AxW0Pl3HtqrEJNfj0EA_EhyzOmyfWBuMeGuuCIYm8jXoCG2jVcMUH0ygAAAAHcJW4LAA"
+)
+
 NAME = "ᴛɪᴄᴋ-ᴛᴏᴄᴋ"
 # ================================
 
 app = Client(
+    name="ticktock",
     session_string=SESSION_STRING,
     api_id=API_ID,
     api_hash=API_HASH
@@ -29,7 +34,7 @@ FONTS = [
 
 current_font = 0
 
-def stylize(text):
+def stylize(text: str) -> str:
     return text.translate(str.maketrans("0123456789", FONTS[current_font]))
 
 @web.route("/")
@@ -61,7 +66,6 @@ async def clock_loop():
                 )
             except Exception as e:
                 print("Update error:", e)
-
             await asyncio.sleep(60)
 
 def run_web():
