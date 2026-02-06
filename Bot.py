@@ -5,9 +5,9 @@ from flask import Flask
 from threading import Thread
 
 # --- تنظیمات اکانت ---
-API_ID = 1234567 
-API_HASH = "your_api_hash"
-SESSION = "your_session_string"
+API_ID = 26060584 
+API_HASH = "aff2f3bb35ebdea3761316d013d960a9"
+SESSION = "1BJWap1sBu7rkxD-ZAf_3F6iZJoBL-i_83Oy0i9NZdJqYOZL3QyJVn5DVGwZbAwubBSB3KyO86WoFbRPIshDPvWrav0ss4RwkkBRDEPLtbDYhyu6WOSsygbvqRVtoWdPBaX9TdZPfyy8RgsCfYohHD8raXsBL-xhNy9V06RiFkmybc9GW__bGZTv1rWVrdkvr0ngGGheZzsiyi4vCDSduMWlWWUzRPfu6VcikLQJ7orLLWHWhHGpJ7e90OW7CN4ZGL3itWgfIRntpUvq0-OR7CNhGJpHo2s5Nk3l4_0L7t8kBygxJJlli3SHxfahZjtZy0tKoelqkCufwL7yQkdsUlpRb4KlicQo="
 NAME = "Saeed"
 # --------------------
 
