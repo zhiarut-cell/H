@@ -9,4 +9,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 # پورت 10000 برای رندر الزامی است
 EXPOSE 10000
 
-CMD ["python", "bot.py"]
+CMD ["python", "BOT.PY"]
